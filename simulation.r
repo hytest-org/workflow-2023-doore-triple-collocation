@@ -54,6 +54,4 @@ fit <- fitVAR(spacepoints = 10,
 
 sim <- generateMTS(n = 40000, STmodel = fit)
 
-h5save(sim, sim15, sim3, sim2, file=file.path("C:", "Users", "kdoore", "OneDrive - DOI", 
-                                              "Projects", "HyTEST", "workflow-2023-doore-triple-collocation",
-                                              "simulation.hdf5", fsep="/"))
+h5save(sim, sim15, sim3, sim2, file="simulation.hdf5")
