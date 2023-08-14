@@ -3,3 +3,11 @@
 
 #R history
 .Rhistory
+
+# Data Directories
+/terraclimate
+/era5
+/nldas
+/gleam
+/wbet
+/ssebop
