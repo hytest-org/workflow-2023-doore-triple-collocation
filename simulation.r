@@ -54,4 +54,4 @@ fit <- fitVAR(spacepoints = 10,
 
 sim <- generateMTS(n = 40000, STmodel = fit)
 
-h5save(sim, sim15, sim3, sim2, file="simulation.hdf5")
+h5save(sim, sim15, sim3, sim2, file="Data/simulation.hdf5")
