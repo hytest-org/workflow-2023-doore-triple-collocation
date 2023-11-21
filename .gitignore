@@ -4,10 +4,14 @@
 #R history
 .Rhistory
 
+# local files
+EC_combos.ipynb
+
 # Data Directories
-/terraclimate
-/era5
-/nldas
-/gleam
-/wbet
-/ssebop
+/Data/terraclimate
+/Data/era5
+/Data/nldas
+/Data/gleam
+/Data/wbet
+/Data/ssebop
+/Data/compiled_TC_avg_errs.nc
