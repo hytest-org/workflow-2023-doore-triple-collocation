@@ -22,3 +22,13 @@ To perform the analysis in the workflows, two different functions were created t
 # Triple Collocation Theoretical Test Examples
 
 Besides applying TC to ET data sets, another set of [example notebooks](Examples/) were produced to test the efficacy of TC on theoretical data sets to ensure it is producing the expected results. It is recommend to check these example notebooks out for additional background on the TC method. Additionally, an example notebook was created showing how to implement [``dask``](https://www.dask.org/) with the created TC functions for use with large out of memory data sets.
+
+# Dependencies
+
+The TC workflows have numerous dependencies. To simplify the installation of the dependencies, a ``conda`` environment file was created. To install the dependencies run:
+
+```
+conda env create -f environment.yml
+```
+
+This will create an environment called ``hytest_tc_workflows``, which can be activated for use in running the workflows.
