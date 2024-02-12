@@ -25,7 +25,7 @@ Besides applying TC to ET data sets, another set of [example notebooks](Examples
 
 # Dependencies
 
-The TC workflows have numerous dependencies. To simplify the installation of the dependencies, a ``conda`` environment file was created. To install the dependencies run:
+The TC workflows have numerous dependencies. To simplify the installation of the dependencies, a ``conda`` [environment file](environment.yml) was created. To install the dependencies run:
 
 ```
 conda env create -f environment.yml
