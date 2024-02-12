@@ -31,4 +31,4 @@ The TC workflows have numerous dependencies. To simplify the installation of the
 conda env create -f environment.yml
 ```
 
-This will create an environment called ``hytest_tc_workflows``, which can be activated for use in running the workflows.
+This will create an environment called ``hytest_tc_workflow``, which can be activated for use in running the workflows.
