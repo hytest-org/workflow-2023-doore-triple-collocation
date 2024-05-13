@@ -4,14 +4,6 @@
 #R history
 .Rhistory
 
-# local files
-EC_combos.ipynb
-
 # Data Directories
-/Data/terraclimate
-/Data/era5
-/Data/nldas
-/Data/gleam
-/Data/wbet
-/Data/ssebop
-/Data/compiled_TC_avg_errs.nc
+/Data/*
+!Data/simulation.hdf5
