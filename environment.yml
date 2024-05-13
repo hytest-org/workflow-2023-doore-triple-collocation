@@ -8,11 +8,16 @@ dependencies:
   - cdsapi>=0.6.1
   - dask>=2023.7.1
   - fsspec>=2023.6.0
+  - gdptools>=0.2.7
+  - geopandas>=0.14.3
+  - geoviews>=1.11.1
   - h5py>=3.9.0
   - holoviews>=1.16.2
   - hvplot>=0.8.4
   - jupyterlab>=4.0.3
   - matplotlib>=3.7.2
+  - netcdf4>=1.6.4
+  - h5netcdf>=1.2.0
   - panel>=1.2.0
   - rioxarray>=0.14.1
   - scipy>=1.11.1
@@ -22,5 +27,4 @@ dependencies:
   - pip
   - pip:
     - sciencebasepy>=2.0.13
-    - xarray-regrid>=0.2.2
-    - xesmf>=0.8
+    - xarray-regrid>=0.2.3
