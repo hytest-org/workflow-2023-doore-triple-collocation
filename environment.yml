@@ -3,27 +3,27 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11.4
-  - aiohttp>=3.8.5
-  - cartopy>=0.21.1
-  - cdsapi>=0.6.1
-  - dask>=2023.7.1
-  - fsspec>=2023.6.0
-  - gdptools>=0.2.7
-  - geopandas>=0.14.3
-  - geoviews>=1.11.1
-  - h5py>=3.9.0
-  - holoviews>=1.16.2
-  - hvplot>=0.8.4
-  - jupyterlab>=4.0.3
-  - matplotlib>=3.7.2
-  - netcdf4>=1.6.4
-  - h5netcdf>=1.2.0
-  - panel>=1.2.0
-  - rioxarray>=0.14.1
-  - scipy>=1.11.1
-  - xarray>=2023.7.0
-  - xarray-einstats>=0.6.0
-  - zipfile-deflate64>=0.2.0
+  - aiohttp[version='>=3.8.5']
+  - cartopy[version='>=0.21.1']
+  - cdsapi[version='>=0.6.1']
+  - dask[version='>=2023.7.1']
+  - fsspec[version='>=2023.6.0']
+  - gdptools[version='>=0.2.7']
+  - geopandas[version='>=0.14.3']
+  - geoviews[version='>=1.11.1']
+  - h5py[version='>=3.9.0']
+  - holoviews[version='>=1.16.2']
+  - hvplot[version='>=0.8.4']
+  - jupyterlab[version='>=4.0.3']
+  - matplotlib[version='>=3.7.2']
+  - netcdf4[version='>=1.6.4']
+  - h5netcdf[version='>=1.2.0']
+  - panel[version='>=1.2.0']
+  - rioxarray[version='>=0.14.1']
+  - scipy[version='>=1.11.1']
+  - xarray[version='>=2023.7.0']
+  - xarray-einstats[version='>=0.6.0']
+  - zipfile-deflate64[version='>=0.2.0']
   - pip
   - pip:
     - sciencebasepy>=2.0.13
