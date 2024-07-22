@@ -5,5 +5,4 @@
 .Rhistory
 
 # Data Directories
-/Data/*
-!Data/simulation.hdf5
+Data/*
