@@ -1,4 +1,6 @@
-# Triple Collocation Workflows
+# Triple Collocation Notebooks
+
+## Workflows
 
 This is a collection of notebooks giving a workflow for how Triple Collocation (TC) can be applied to evapotranspiration (ET) data to derived data uncertainties and subsequently evaluate agreement between ET data sets. The workflow has six parts, two associated with setting up the collocated ET data sets, two associated with applying TC to the ET data sets, one exploring the relative agreement between the ET data sets, and one exploring TC and agreement results after aggregating the ET data sets to certain geographic regions. They should be run in order and are as follows:
 
@@ -11,7 +13,7 @@ This is a collection of notebooks giving a workflow for how Triple Collocation (
 
 Each notebook details the method taken in the workflow and discusses the results.
 
-# Triple Collocation functions
+## Functions
 
 To perform the analysis in the workflows, two different functions were created to calculate the error variances using TC. These functions are placed within their own notebooks to accommodate the explanation of the mathematical background. The functions are:
 
@@ -20,9 +22,10 @@ To perform the analysis in the workflows, two different functions were created t
 
 > Note that ``ec_covar_multi`` is just a more generic version of ``tc_covar`` and ``ec_covar``. It produces the exact same results, but has the additional functionality that allows for performing EC along multiple collocated inputs simultaneously.
 
-# Triple Collocation Theoretical Test Examples
+## Theoretical Test Examples
 
 Besides applying TC to ET data sets, another set of [example notebooks](Examples/) were produced to test the efficacy of TC on theoretical data sets to ensure it is producing the expected results. It is recommend to check these example notebooks out for additional background on the TC method. Additionally, an example notebook was created showing how to implement [``dask``](https://www.dask.org/) with the created TC functions for use with large out of memory data sets.
+
 
 # Installation
 
@@ -40,6 +43,7 @@ conda env create -f environment.yml
 
 This will create an environment called ``hytest_tc_workflow``, which can be activated for use in running the workflows.
 
+
 # Authors
 
 - Keith Doore - *Lead Author* - [USGS Central Midwest Water Science Center](https://www.usgs.gov/centers/cm-water)
@@ -47,9 +51,11 @@ This will create an environment called ``hytest_tc_workflow``, which can be acti
 - Timothy O. Hodson - *Contributing Author* - [USGS Water Resources Mission Area](https://www.usgs.gov/mission-areas/water-resources)
 - Sydney S. Foks - *Contributing Author* - [USGS Water Resources Mission Area](https://www.usgs.gov/mission-areas/water-resources)
 
+
 # License
 
 This project is licensed under the Creative Commons CC0 1.0 Universal License.
+
 
 # Suggested Citation
 
