@@ -24,12 +24,33 @@ To perform the analysis in the workflows, two different functions were created t
 
 Besides applying TC to ET data sets, another set of [example notebooks](Examples/) were produced to test the efficacy of TC on theoretical data sets to ensure it is producing the expected results. It is recommend to check these example notebooks out for additional background on the TC method. Additionally, an example notebook was created showing how to implement [``dask``](https://www.dask.org/) with the created TC functions for use with large out of memory data sets.
 
-# Dependencies
+# Installation
 
-The TC workflows have numerous dependencies. To simplify the installation of the dependencies, a ``conda`` [environment file](environment.yml) was created. To install the dependencies run:
+To run the notebooks, they must first be downloaded by running:
+
+```
+git clone https://github.com/hytest-org/workflow-2023-doore-triple-collocation.git
+```
+
+Then the dependencies can be installed from the ``conda`` [environment file](environment.yml) included in the repo via:
 
 ```
 conda env create -f environment.yml
 ```
 
 This will create an environment called ``hytest_tc_workflow``, which can be activated for use in running the workflows.
+
+# Authors
+
+- Keith Doore - *Lead Author* - [USGS Central Midwest Water Science Center](https://www.usgs.gov/centers/cm-water)
+- Thomas M. Over - *Contributing Author* - [USGS Central Midwest Water Science Center](https://www.usgs.gov/centers/cm-water)
+- Timothy O. Hodson - *Contributing Author* - [USGS Water Resources Mission Area](https://www.usgs.gov/mission-areas/water-resources)
+- Sydney S. Foks - *Contributing Author* - [USGS Water Resources Mission Area](https://www.usgs.gov/mission-areas/water-resources)
+
+# License
+
+This project is licensed under the Creative Commons CC0 1.0 Universal License.
+
+# Suggested Citation
+
+TBD

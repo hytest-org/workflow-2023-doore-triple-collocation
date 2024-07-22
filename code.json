@@ -1,0 +1,44 @@
+[
+  {
+    "name": "workflow-2023-doore-triple-collocation",
+    "organization": "U.S. Geological Survey",
+    "description": "Collection of notebooks giving a workflow for how Triple Collocation can be applied to gridded evapotranspiration (ET) data to derived data uncertainties and subsequently evaluate agreement between ET data sets",
+    "version": "v1.0.0",
+    "status": ["Release Candidate"],
+    "permissions": {
+      "usageType": "openSource",
+      "licenses": [
+        {
+          "name": "Public Domain, CC0-1.0",
+          "URL": "https://github.com/hytest-org/workflow-2023-doore-triple-collocation/blob/main/LICENSE.md"
+        }
+      ]
+    },
+
+    "homepageURL": "https://github.com/hytest-org/workflow-2023-doore-triple-collocation/tree/main",
+    "downloadURL": "https://github.com/hytest-org/workflow-2023-doore-triple-collocation/archive/refs/heads/main.zip",
+    "disclaimerURL": "https://github.com/hytest-org/workflow-2023-doore-triple-collocation/blob/main/DISCLAIMER.md",
+    "repositoryUrl": "https://github.com/hytest-org/workflow-2023-doore-triple-collocation.git",
+    "vcs": "git",
+
+    "tags": [
+      "Evapotranspiration",
+      "Triple Collocation"
+    ],
+
+    "languages": [
+      "markdown",
+      "python",
+      "R"
+    ],
+
+    "contact": {
+      "name": "Keith Doore",
+      "email": "kdoore@usgs.gov"
+    },
+
+    "date": {
+      "metadataLastUpdated": "2024-07-22"
+    }
+  }
+]
