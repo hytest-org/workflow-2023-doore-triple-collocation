@@ -1,13 +1,13 @@
 # Triple Collocation Workflows
 
-This is a collection of notebooks giving a workflow for how Triple Collocation (TC) can be applied to evapotranspiration (ET) data to get a better understanding of the uncertainties within the ET data sets. The workflow has six parts, two associated with setting up the collocated ET data sets, two associated with applying TC to the ET data sets, one exploring the relative biases between the ET data sets, and one exploring TC and bias results after aggregating the ET data sets to geographic regions. They should be run in order and are as follows:
+This is a collection of notebooks giving a workflow for how Triple Collocation (TC) can be applied to evapotranspiration (ET) data to derived data uncertainties and subsequently evaluate agreement between ET data sets. The workflow has six parts, two associated with setting up the collocated ET data sets, two associated with applying TC to the ET data sets, one exploring the relative agreement between the ET data sets, and one exploring TC and agreement results after aggregating the ET data sets to certain geographic regions. They should be run in order and are as follows:
 
 1. [Compiling the ET Monthly Data Sets](workflow/0_compile_datasets.ipynb)
 2. [Regridding the ET Data Sets](workflow/1_regrid.ipynb)
 3. [Applying Triple Collocation Uncertainty Analysis](workflow/2_TC_application.ipynb)
 4. [Applying Extended Collocation Uncertainty Analysis](workflow/3_EC_application.ipynb)
-5. [Assessing the Relative Bias between ET Data Sets](workflow/4_Bias.ipynb)
-6. [Utilizing TC and Relative Bias in Regional Analyses](workflow/5_Regional_analysis.ipynb)
+5. [Assessing the Relative Agreement between ET Data Sets](workflow/4_dataset_agreement.ipynb)
+6. [Utilizing TC and Relative Agreement in Regional Analyses](workflow/5_regional_analysis.ipynb)
 
 Each notebook details the method taken in the workflow and discusses the results.
 
