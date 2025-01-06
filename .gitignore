@@ -6,3 +6,7 @@
 
 # Data Directories
 Data/*
+
+# Paper Figures
+Paper_figures/*
+!Paper_figures/*.ipynb
