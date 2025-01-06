@@ -59,4 +59,4 @@ This project is licensed under the Creative Commons CC0 1.0 Universal License.
 
 # Suggested Citation
 
-TBD
+Doore, K.J., Over, T.M., Hodson, T.O., and Foks, S.S., 2024, Workflow Notebooks for Evaluating the Statistical Agreement between Gridded Evapotranspiration Data Sets in the Conterminous United States via Triple Collocation: U.S. Geological Survey sofware release, [https://doi.org/10.5066/P1VN9ENA](https://doi.org/10.5066/P1VN9ENA).
